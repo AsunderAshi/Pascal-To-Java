@@ -1,0 +1,18 @@
+package Types;
+
+public enum KeywordsTypes implements TokenType
+{
+    KEYWORD_FUNCTION,
+    KEYWORD_CYCLE_FOR,
+    KEYWORD_CYCLE_WHILE,
+    KEYWORD_INTEGER,
+    KEYWORD_FLOAT,
+    KEYWORD_DOUBLE,
+    KEYWORD_IF_START,
+    KEYWORD_IF_END,
+    KEYWORD_BOOL,
+    KEYWORD_CHAR,
+    START_FUNCTION,
+    KEYWORD_TYPE,
+    KEYWORD_WHILE_END
+}

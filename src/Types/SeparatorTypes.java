@@ -1,0 +1,18 @@
+package Types;
+
+public enum SeparatorTypes implements TokenType
+{
+    BLOCK_START,
+    BLOCK_END,
+    OPEN_BRACKET,
+    CLOSE_BRACKET,
+    ARRAY_START,
+    ARRAY_END,
+    SEPARATOR_IDENTIFIERS,
+    SEPARATOR_SUB_ELEMENTS,
+    ITERATOR_FOR,
+    END_STATEMENT,
+    OVERRIDE_FUNCTION,
+    PROGRAM_END,
+    END_FUNCTION
+}

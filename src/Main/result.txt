@@ -1,0 +1,33 @@
+var
+	first : integer;
+	second : integer;
+	equals : boolean;
+begin
+if first > second then
+    begin
+        while true do
+        begin
+            while equals = false do
+            begin
+                first := first - 1;
+                equals := first = second;
+            end;
+        end;
+    end;
+    if second > first then
+        begin
+            while true do
+            begin
+                while equals = false do
+                begin
+                    second := second - 1;
+                    equals := second = first;
+                end;
+            end;
+        end;
+    for var i := first to first do
+    begin
+        first := first + 1;
+    end;
+    second := first;
+end.

@@ -1,0 +1,33 @@
+public static void main()
+{
+int first;
+int second;
+boolean equals;
+if (first > second)
+    {
+        for(;;)
+        {
+            while (equals == false)
+            {
+                first = first - 1;
+                equals = first == second;
+            }
+        }
+    }
+    if (second > first)
+        {
+            for(;;)
+            {
+                while (equals == false)
+                {
+                    second = second - 1;
+                    equals = second == first;
+                }
+            }
+        }
+    for (int i = first; i <= first; i++)
+    {
+        first = first + 1;
+    }
+    second = first;
+}
